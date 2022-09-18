@@ -1,0 +1,69 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-bg-color: #F5F5F5;
+--second-accent-color: #FFFFFF;
+--second-bg-color: #F5F4FA;
+}
+
+body {background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.list {list-style: none;
+}
+
+
+
+/* site-nav */
+
+.site-nav a {color: var(--title-text-color);}
+.site-nav a:hover,
+.site-nav a:focus {color: var(--accent-color)}
+
+/* Hero */
+
+.hero-title {color: #FFFFFF;}
+
+/* Section */
+
+.section-title {color: var(--title-text-color);}
+
+/* Feature */
+
+.title {color: var(--title-text-color);}
+
+/* Examples */
+
+.examples-title {color: var(--title-text-color);}
+
+.button {background-color: var(--second-bg-color);
+    color: var(--title-text-color);}
+.button:hover,
+.button:focus {color: var(--second-accent-color);
+    background-color: var(--accent-color);}   
+
+
+.button.primary {color: var(--second-accent-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+/* вторинний колір #212121 */
+
+/* основний колір #757575; */
+
+/* білий #FFFFFF; */
+
+/* акценти #2196F3; */
+/* команда background: #F5F4FA; */
+/* підвал background: #2F303A; */
+
