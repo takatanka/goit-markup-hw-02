@@ -82,6 +82,9 @@ letter-spacing: 0.03em;
 
 .section-title {color: var(--title-text-color);}
 .team.section { background-color: var(--second-bg-color);}
+.list-team .card-team{
+    background-color: var(--total-white);
+}
 
 
 /* Feature */
