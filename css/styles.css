@@ -6,6 +6,7 @@
   --second-bg-color: #f5f4fa;
   --total-black: #000000;
   --background-hero-footer: #2f303a;
+  --color-white: rgb(255, 255, 255, 0.6);
 }
 
 body {
@@ -19,10 +20,18 @@ button {
   cursor: pointer;
 }
 
-.hide {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
-
 .list {
   list-style: none;
 }
@@ -100,10 +109,10 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-color: transparent;
+  border-radius: 4px;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -188,8 +197,9 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .filtr-button:hover,
@@ -219,7 +229,8 @@ button {
 
 .footer-mail,
 .footer-phone {
-  color: rgb(255, 255, 255, 0.6);
+  font-style: normal;
+  color: var(--color-white);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
